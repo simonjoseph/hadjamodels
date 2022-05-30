@@ -387,18 +387,14 @@
     async function filterOption(e){
       const posts = await getPosts();
       const al =  document.getElementById('altura').value;
-      const all =  document.getElementById('Olhos').value;
-
       const term = e.target.value.toUpperCase();
 
       let g = document.querySelectorAll('.postFemale');
 
       g.forEach(post => {
         const title = post.querySelector('.altura').innerText.toUpperCase();
-        const title1 = post.querySelector('.Olhos').innerText.toUpperCase();
 
-
-        if (title.indexOf(term) > -1 || title1.indexOf(term) > -1) {
+        if (title.indexOf(term) > -1) {
           post.style.display = 'flex';
         } else {
           post.style.display = 'none';
@@ -406,22 +402,22 @@
       });
       
     }
-    // async function filterOptionOlhos(e){
-    //   const posts = await getPosts();
-    //   const al =  document.getElementById('Olhos').value;
-    //   const term = e.target.value.toUpperCase();
-    //   console.log(term);
-    //   let g = document.querySelectorAll('.postFemale');
-    //   g.forEach(post => {
-    //     const title = post.querySelector('.Olhos').innerText.toUpperCase();
-    //     if (title.indexOf(term) > -1) {
-    //       post.style.display = 'flex';
-    //     } else {
-    //       post.style.display = 'none';
-    //     }
-    //   });
+    async function filterOptionOlhos(e){
+      const posts = await getPosts();
+      const al =  document.getElementById('Olhos').value;
+      const term = e.target.value.toUpperCase();
+      console.log(term);
+      let g = document.querySelectorAll('.postFemale');
+      g.forEach(post => {
+        const title = post.querySelector('.Olhos').innerText.toUpperCase();
+        if (title.indexOf(term) > -1) {
+          post.style.display = 'flex';
+        } else {
+          post.style.display = 'none';
+        }
+      });
       
-    // }
+    }
 
     async function filterOptionCintura(e){
       const posts = await getPosts();
@@ -475,8 +471,7 @@
 
     filter.addEventListener('input', filterPosts);
     altura.addEventListener('change', filterOption);
-    Olhos.addEventListener('change', filterOption);
-    // Olhos.addEventListener('change', filterOptionOlhos);
+    Olhos.addEventListener('change', filterOptionOlhos);
     Cintura.addEventListener('change', filterOptionCintura);
     Pele.addEventListener('change', filterOptionPele);
   </script>
