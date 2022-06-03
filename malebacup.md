@@ -1,4 +1,7 @@
-<html lang="pt-PT" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths js-focus-visible" data-js-focus-visible=""><head>
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +17,11 @@
   <link rel="stylesheet" href="css/themify-icons.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
 
-<link id="google-fonts-toucan" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Karla:400,700|Lora:700&amp;display=swap"><style id="tou-transition-helpers"></style><script src="chrome-extension://lokjgaehpcnlmkebpmjiofccpklbmoci/history-change-listener.js" id="toucan-history-listener"></script></head>
+</head>
 
 <body>
   <a href="https://api.whatsapp.com/send?phone=244928605999" class="float" target="_blank">
@@ -27,7 +31,7 @@
     <header>
       <div class="yscott-header-navbar">
         <div class="container yscott-navbar-container">
-          <div class="yscott-navigation-wrap bg-black yscott-start-header scroll-on">
+          <div class="yscott-navigation-wrap bg-black yscott-start-header start-style">
             <div class="container">
               <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -35,7 +39,9 @@
                     <!-- Logo -->
                     <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="Hadja models"> </a>
                     <!-- Menu -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                      aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span> </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav ml-auto py-4 py-md-0">
@@ -46,19 +52,25 @@
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                           <a class="nav-link" href="services.html">Serviços</a></li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Modelos <span class="fas fa-angle-down"></span></a>
+                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Modelos <span
+                              class="fas fa-angle-down"></span></a>
                           <div class="dropdown-menu">
                             <a class="dropdown-item" href="female.html">Femenino</a>
                             <a class="dropdown-item" href="male.html">Masculino</a> </div>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Inscrição <span class="fas fa-angle-down"></span></a>
+                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Inscrição <span
+                              class="fas fa-angle-down"></span></a>
                           <div class="dropdown-menu">
                             <a class="dropdown-item" href="inscription.html">Seja um modelo</a>
                           </div>
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Eventos <span class="fas fa-angle-down"></span></a>
+                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Eventos <span
+                              class="fas fa-angle-down"></span></a>
                           <div class="dropdown-menu">
                             <a class="dropdown-item" href="ani.html">Aniversário Hadja Models</a>
                             <a class="dropdown-item" href="solidary.html">Moda Solidária</a>
@@ -68,7 +80,8 @@
                         </li>
                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
                           <a class="nav-link" href="blog.html">Blog</a></li>
-                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="contact.html">Contactos</a> </li>
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
+                            href="contact.html">Contactos</a> </li>
                       </ul>
                     </div>
                   </nav>
@@ -96,227 +109,35 @@
             </div>
           </div>
         </div>
-        <div class="row animate-box fadeInUp animated" data-animate-effect="fadeInUp">
+        <div class="row animate-box fadeInUp animated" data-animate-effect="fadeInUp" >
           <div class="col-md-4 form-group">
-            <input name="name" type="text" id="filterFemale" placeholder="Nome do modelo" required="">
+            <input name="name" type="text" id="filterFemale"  placeholder="Nome do modelo" required="">
           </div>
           <div class="col-md-2 form-group">
 
             <select name="" id="altura" class="filter-select">
-              <option selected="">Altura</option>
-            <option value="1.85">1.85</option><option value="1.86">1.86</option><option value="1.87">1.87</option><option value="1.88">1.88</option><option value="1.89">1.89</option><option value="1.90">1.90</option></select>
+              <option selected>Altura</option>
+            </select>
           </div>
           <div class="col-md-2 form-group">
             <select name="" id="Olhos" class="filter-select">
-              <option selected="">Olhos</option>
-            <option value="Preto">Preto</option><option value="Castanhos">Castanhos</option><option value="Castanhos escuro">Castanhos escuro</option><option value="Azuis">Azuis</option><option value="Verdes">Verdes</option></select>
+              <option selected>Olhos</option>
+            </select>
           </div>
           <div class="col-md-2 form-group">
             <select name="" id="Cintura" class="filter-select">
-              <option selected="">Cintura</option>
-            <option value="80">80</option><option value="81">81</option><option value="82">82</option><option value="83">83</option><option value="84">84</option><option value="86">86</option><option value="87">87</option><option value="88">88</option><option value="89">89</option><option value="90">90</option><option value="91">91</option><option value="92">92</option></select>
+              <option selected>Cintura</option>
+            </select>
           </div>
           <div class="col-md-2 form-group">
             <select name="" id="Pele" class="filter-select">
-              <option selected="">Pele</option>
-            <option value="Negra">Negra</option><option value="Branca">Branca</option></select>
+              <option selected>Pele</option>
+            </select>
           </div>
         </div>
         <div class="row" id="postMentor">
           
-        <div class="col-md-4 animate-box fadeInUp animated postFemale">
-            <div class="item kl">
-              <a href="profile.html">
-              <div class="position-re o-hidden"> <img src="img/Modelos masculinos para site/Andrade e Wilson.jpg" alt="Hamilton e Wilson Andrade"> </div>
-              <div class="layer">
-                <div class="layer-text">
-                  <h3>Idade: </h3>
-                  <h3 class="altura">Altura: 1.85</h3>
-                  <h3>Peito: 100</h3>
-                  <h3 class="Cintura">Cintura: 81</h3>
-                  <h3>Anca: 19</h3>
-                  <h3>Sapatos: 43</h3>
-                  <h3 class="Olhos">Olhos: Preto</h3>
-                  <h3>Cabelo: preto</h3>
-                  <h3 class="Pele">Pele: negra</h3>
-                </div>
-              </div>
-              </a>
-              <div class="con">
-                <a href="profile.html">
-                  <h5 class="nome-modelo">Hamilton e Wilson Andrade</h5>
-                </a>
-              </div>
-            </div>
-    </div><div class="col-md-4 animate-box fadeInUp animated postFemale">
-            <div class="item kl">
-              <a href="profile.html">
-              <div class="position-re o-hidden"> <img src="img/Modelos masculinos para site/Ariclene Clemente.jpg" alt="Ariclene Clemente"> </div>
-              <div class="layer">
-                <div class="layer-text">
-                  <h3>Idade: </h3>
-                  <h3 class="altura">Altura: 1.85</h3>
-                  <h3>Peito: 100</h3>
-                  <h3 class="Cintura">Cintura: 80</h3>
-                  <h3>Anca: 29</h3>
-                  <h3>Sapatos: 43</h3>
-                  <h3 class="Olhos">Olhos: Castanhos escuros</h3>
-                  <h3>Cabelo: Preto</h3>
-                  <h3 class="Pele">Pele: negra</h3>
-                </div>
-              </div>
-              </a>
-              <div class="con">
-                <a href="profile.html">
-                  <h5 class="nome-modelo">Ariclene Clemente</h5>
-                </a>
-              </div>
-            </div>
-    </div><div class="col-md-4 animate-box fadeInUp animated postFemale">
-            <div class="item kl">
-              <a href="profile.html">
-              <div class="position-re o-hidden"> <img src="img/Modelos masculinos para site/Braulio Anderson.jpg" alt="Braulio Anderson"> </div>
-              <div class="layer">
-                <div class="layer-text">
-                  <h3>Idade: </h3>
-                  <h3 class="altura">Altura: 1.90</h3>
-                  <h3>Peito: 95</h3>
-                  <h3 class="Cintura">Cintura: 84</h3>
-                  <h3>Anca: 19</h3>
-                  <h3>Sapatos: 44</h3>
-                  <h3 class="Olhos">Olhos: Castanhos escuros</h3>
-                  <h3>Cabelo: Preto</h3>
-                  <h3 class="Pele">Pele: negra</h3>
-                </div>
-              </div>
-              </a>
-              <div class="con">
-                <a href="profile.html">
-                  <h5 class="nome-modelo">Braulio Anderson</h5>
-                </a>
-              </div>
-            </div>
-    </div><div class="col-md-4 animate-box fadeInUp animated postFemale">
-            <div class="item kl">
-              <a href="profile.html">
-              <div class="position-re o-hidden"> <img src="img/Modelos masculinos para site/Eryvaldo Reis.jpg" alt="Eryvaldo Reis"> </div>
-              <div class="layer">
-                <div class="layer-text">
-                  <h3>Idade: </h3>
-                  <h3 class="altura">Altura: 1.87</h3>
-                  <h3>Peito: 104</h3>
-                  <h3 class="Cintura">Cintura: 88</h3>
-                  <h3>Anca: 100</h3>
-                  <h3>Sapatos: 44</h3>
-                  <h3 class="Olhos">Olhos: Castanhos</h3>
-                  <h3>Cabelo: Preto</h3>
-                  <h3 class="Pele">Pele: negra</h3>
-                </div>
-              </div>
-              </a>
-              <div class="con">
-                <a href="profile.html">
-                  <h5 class="nome-modelo">Eryvaldo Reis</h5>
-                </a>
-              </div>
-            </div>
-    </div><div class="col-md-4 animate-box fadeInUp animated postFemale">
-            <div class="item kl">
-              <a href="profile.html">
-              <div class="position-re o-hidden"> <img src="img/Modelos masculinos para site/Feliciano Pacheco.JPG" alt="Feliciano Pacheco"> </div>
-              <div class="layer">
-                <div class="layer-text">
-                  <h3>Idade: </h3>
-                  <h3 class="altura">Altura: 1.90</h3>
-                  <h3>Peito: 108</h3>
-                  <h3 class="Cintura">Cintura: 92</h3>
-                  <h3>Anca: 19</h3>
-                  <h3>Sapatos: 43</h3>
-                  <h3 class="Olhos">Olhos: Castanhos</h3>
-                  <h3>Cabelo: Preto</h3>
-                  <h3 class="Pele">Pele: negra</h3>
-                </div>
-              </div>
-              </a>
-              <div class="con">
-                <a href="profile.html">
-                  <h5 class="nome-modelo">Feliciano Pacheco</h5>
-                </a>
-              </div>
-            </div>
-    </div><div class="col-md-4 animate-box fadeInUp animated postFemale">
-            <div class="item kl">
-              <a href="profile.html">
-              <div class="position-re o-hidden"> <img src="img/Modelos masculinos para site/Fernando João.jpg" alt="Fernando João"> </div>
-              <div class="layer">
-                <div class="layer-text">
-                  <h3>Idade: </h3>
-                  <h3 class="altura">Altura: 1.85</h3>
-                  <h3>Peito: 102</h3>
-                  <h3 class="Cintura">Cintura: 42</h3>
-                  <h3>Anca: 19</h3>
-                  <h3>Sapatos: 43</h3>
-                  <h3 class="Olhos">Olhos: Castanhos escuros</h3>
-                  <h3>Cabelo: Preto</h3>
-                  <h3 class="Pele">Pele: negra</h3>
-                </div>
-              </div>
-              </a>
-              <div class="con">
-                <a href="profile.html">
-                  <h5 class="nome-modelo">Fernando João</h5>
-                </a>
-              </div>
-            </div>
-    </div><div class="col-md-4 animate-box fadeInUp animated postFemale">
-            <div class="item kl">
-              <a href="profile.html">
-              <div class="position-re o-hidden"> <img src="img/Modelos masculinos para site/Jelson Jorge.jpg" alt="Jelson Jorge"> </div>
-              <div class="layer">
-                <div class="layer-text">
-                  <h3>Idade: </h3>
-                  <h3 class="altura">Altura: 1.86</h3>
-                  <h3>Peito: 112</h3>
-                  <h3 class="Cintura">Cintura: 82</h3>
-                  <h3>Anca: 19</h3>
-                  <h3>Sapatos: 43</h3>
-                  <h3 class="Olhos">Olhos: Castanhos</h3>
-                  <h3>Cabelo: Preto</h3>
-                  <h3 class="Pele">Pele: negra</h3>
-                </div>
-              </div>
-              </a>
-              <div class="con">
-                <a href="profile.html">
-                  <h5 class="nome-modelo">Jelson Jorge</h5>
-                </a>
-              </div>
-            </div>
-    </div><div class="col-md-4 animate-box fadeInUp animated postFemale">
-            <div class="item kl">
-              <a href="profile.html">
-              <div class="position-re o-hidden"> <img src="img/Modelos masculinos para site/José Arnaldo.jpg" alt="José Arnaldo"> </div>
-              <div class="layer">
-                <div class="layer-text">
-                  <h3>Idade: </h3>
-                  <h3 class="altura">Altura: 1.94</h3>
-                  <h3>Peito: 112</h3>
-                  <h3 class="Cintura">Cintura: 84</h3>
-                  <h3>Anca: 100</h3>
-                  <h3>Sapatos: 43</h3>
-                  <h3 class="Olhos">Olhos: Castanhos</h3>
-                  <h3>Cabelo: Preto</h3>
-                  <h3 class="Pele">Pele: negra</h3>
-                </div>
-              </div>
-              </a>
-              <div class="con">
-                <a href="profile.html">
-                  <h5 class="nome-modelo">José Arnaldo</h5>
-                </a>
-              </div>
-            </div>
-    </div></div>
+        </div>
         <div class="l">
           <div class="loader">
             <div class="circle"></div>
@@ -334,7 +155,7 @@
             <div class="col-md-4">
               <h3 style="line-height: 1.2em">Hadja models</h3>
               <h6>Hadja models</h6>
-              <p>Entrada do BFA, <span class="tou-node" id="tou-0-698bf860-d768-4748-8cca-62205f344f1b" lang="en"></span> nº5, casa nº14
+              <p>Entrada do BFA, Travessa nº5, casa nº14
                 <br>Benfica — Luanda
               </p>
             </div>
@@ -348,7 +169,7 @@
             </div>
             <div class="col-md-4">
               <h3>+244 928-073-729</h3>
-              <p><span class="tou-node" id="tou-0-79407d82-19a6-4694-a616-2fc20545e9ca" lang="en"></span> de Trabalho
+              <p>Horas de Trabalho
                 <br>Seg-Sex: 08:00 - 16:00
               </p>
             </div>
@@ -656,43 +477,6 @@
     Pele.addEventListener('change', filterOptionPele);
   </script>
   <!-- k -->
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+</body>
 
-<div id="toucan" style="position: static;"></div></body></html>
+</html>
